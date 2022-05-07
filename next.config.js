@@ -16,6 +16,7 @@ module.exports = {
   publicRuntimeConfig: {
     degaAPIKey: process.env.NEXT_PUBLIC_DEGA_API_KEY,
     spaceId: process.env.NEXT_PUBLIC_SPACE_ID,
+    apiUrl: process.env.NEXT_PUBLIC_API_URL,
     kratosURL: process.env.NEXT_PUBLIC_KRATOS_URL,
     kavachProfileURL: process.env.NEXT_PUBLIC_KAVACH_PROFILE_URL,
     siteURL: process.env.NEXT_PUBLIC_SITE_URL,

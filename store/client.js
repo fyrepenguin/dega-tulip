@@ -5,7 +5,7 @@ import getConfig from 'next/config';
 const { publicRuntimeConfig } = getConfig();
 
 export const client = new ApolloClient({
-  uri: process.env.API_URL,
+  uri: publicRuntimeConfig.apiUrl,
   headers: {
     'X-Dega-API-Key': publicRuntimeConfig.degaAPIKey,
     'X-Space': parseInt(publicRuntimeConfig.spaceId),
